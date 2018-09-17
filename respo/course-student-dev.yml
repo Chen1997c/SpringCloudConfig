@@ -19,10 +19,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-  cloud:
-    bus:
-      trace:
-        enabled: true
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
@@ -34,6 +30,3 @@ pagehelper:
   params: count=countSql
 course:
   pageSize: 6
-management:
-  trace:
-    include: bus-refresh
