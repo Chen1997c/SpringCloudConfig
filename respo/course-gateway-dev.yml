@@ -1,0 +1,21 @@
+zuul:
+  routes:
+    auth:
+      path: /passport/**
+      sensitiveHeaders:
+      serviceId: course-auth
+    student:
+      path: /student/**
+      serviceId: course-student
+      sensitiveHeaders:
+    teacher:
+      path: /teacher/**
+      serviceId: course-teacher
+    admin:
+      path: /admin/**
+      serviceId: course-admin
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8080/passport/principal
+      prefer-token-info: false
