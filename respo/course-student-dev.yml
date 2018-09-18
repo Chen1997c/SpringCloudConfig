@@ -24,4 +24,4 @@ pagehelper:
   support-methods-arguments: true
   params: count=countSql
 course:
-  pageSize: 6
+  pageSize: 10
