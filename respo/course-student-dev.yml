@@ -14,6 +14,11 @@ spring:
   devtools:
     restart:
       trigger-file: trigger.txt
+  rabbitmq:
+    host: localhost
+    port: 5673
+    username: guest
+    password: guest
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
@@ -24,4 +29,4 @@ pagehelper:
   support-methods-arguments: true
   params: count=countSql
 course:
-  pageSize: 6
+  pageSize: 10
