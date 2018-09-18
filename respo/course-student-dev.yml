@@ -29,7 +29,7 @@ pagehelper:
   support-methods-arguments: true
   params: count=countSql
 course:
-  pageSize: 5
+  pageSize: 10
 management:
   security:
     enabled: false
