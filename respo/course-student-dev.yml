@@ -25,6 +25,3 @@ pagehelper:
   params: count=countSql
 course:
   pageSize: 6
-management:
-  security:
-    enabled: false
