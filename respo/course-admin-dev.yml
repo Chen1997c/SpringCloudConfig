@@ -11,6 +11,11 @@ spring:
     url: jdbc:mysql:///cloud_course?useSSL=false
     username: root
     password: 19970914
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
   devtools:
     restart:
       trigger-file: trigger.txt
