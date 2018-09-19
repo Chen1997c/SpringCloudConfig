@@ -2,6 +2,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
 zuul:
   routes:
     auth:
