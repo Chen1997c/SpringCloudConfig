@@ -27,9 +27,3 @@ zuul:
     admin:
       path: /admin/**
       serviceId: course-admin
-security:
-  oauth2:
-    resource:
-      id: course-auth
-      user-info-uri: http://localhost:2001/principal
-      prefer-token-info: false
