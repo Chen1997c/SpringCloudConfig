@@ -15,12 +15,10 @@ zuul:
   routes:
     auth:
       path: /passport/**
-      sensitiveHeaders:
       serviceId: course-auth
     student:
       path: /student/**
       serviceId: course-student
-      sensitiveHeaders:
     teacher:
       path: /teacher/**
       serviceId: course-teacher
