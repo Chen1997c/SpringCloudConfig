@@ -30,5 +30,6 @@ zuul:
 security:
   oauth2:
     resource:
+      id: course-auth
       user-info-uri: http://localhost:8080/passport/principal
       prefer-token-info: false
