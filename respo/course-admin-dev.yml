@@ -1,11 +1,5 @@
 server:
   port: 5001
-security:
-  oauth2:
-    resource:
-      id: course-auth
-      user-info-uri: http://localhost:8080/passport/principal
-      prefer-token-info: false
 spring:
   datasource:
     url: jdbc:mysql:///cloud_course?useSSL=false
